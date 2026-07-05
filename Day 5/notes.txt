@@ -1,0 +1,11 @@
+Dictionary:
+    data represented as key:value pair
+    nature is growable
+    duplicate keys are not allowed
+    duplicate values are allowed
+    it is mutable
+    
+
+FILE HANDLING :
+    whenever we have to store the data for future purpose, we use file handling concept.
+    data stored in secondary memory of computer

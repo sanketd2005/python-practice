@@ -55,17 +55,15 @@
 # res = Result()
 # res.getResult()
 
+class A:
+    def add(self):
+        print("A")
+class B:
+    def add(self):
+        print("B")
 
-# class A:
-#     def add(self):
-#         print("A")
-# class B:
-#     def add(self):
-#         print("B")
+class C(A,B):
+    pass
 
-# class C(A,B):
-#     pass
-
-# obj = C()
-# obj.add()
-
+obj = C()
+obj.add()

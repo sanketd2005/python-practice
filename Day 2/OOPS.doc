@@ -1,0 +1,60 @@
+general purpose application design:-
+    apply OOPs
+    SOLID principle  
+    low level , high level design
+    support systems(call,mail,text,etc..)
+
+4 pillers of OOP :  
+    Inheritance - code reusability
+    Abstraction
+    Polymorphism 
+    Encapsulation
+    answer -> use example and state why
+
+//person -> George Hodz
+
+
+Naming Conventions ->
+    use proper names
+
+variables -> instance , static and local variables
+    - instance : 
+        always depends on state of object 
+        eg. record of students in college
+    - static:
+        doesn't depends on object
+        created single memory 
+        access, modify, delete using ClassName.varname
+        eg. college name
+
+methods ->
+    class methods 
+        to be find
+    static methods : 
+        no self arguement is passed 
+        eg. admission process in college,
+    instance methods : 
+        uses self as default arguement
+
+
+Inheritance: code reusability
+1. Single Inheritance [BASE -> DERIVED]
+2. Multiple Inheritance [BASE -> DERIVED]
+3. Multilevel Inheritance [BASE -> DERIVED]
+
+Abstraction : PayTM -> IRCTC ticket booking
+
+Polymorphism: having many forms
+    - Compile Time Polymorphism (Static | Early Binding):
+        eg. function overloading
+        python doesnot support constructor and function overloading
+            - 
+    - Runtime Polymorphism (Dynamic | Late Binding):
+        eg. function overriding
+
+destructor -> deallocates the resources
+
+Garbage collector : (GC module)
+GC -> destructor 
+destructor -> ack-> GC
+GC -> free the memory

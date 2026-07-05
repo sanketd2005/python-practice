@@ -1,0 +1,12 @@
+1. difference between method and function -> 
+    function : outside class, no operator is used to call function 
+    method : inside class, object uses (.) operator to call method
+
+2. who provides memory to object ->
+    default constructor assigns 
+3. how much memory does the object required -> 
+    - constructor calculates the total number of members (variables, fuctions) and 
+    then assigns the address to the object
+    - address converted to HEX -> then to object
+
+4. Types of variables in class : 

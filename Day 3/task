@@ -1,0 +1,8 @@
+WAP to accept
+three paper marks like phy, chem, math and calculate total percentage
+and display
+    total marks, percentage and condition:
+        if user is passed in all subjects then print pass 
+            else, print fail and passing marks is 40
+        if per >= 65 and gender =='male' then print you are eligible for placement 
+            else, not eligible for placement

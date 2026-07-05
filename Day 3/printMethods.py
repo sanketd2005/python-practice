@@ -1,0 +1,12 @@
+print("Sanket123".isalnum())
+print("Sanket123".isalpha())
+print("7g712".isdigit())
+print("ssdsdsdsd".islower())
+print(" ".islower())
+print("SANKETd".isupper())
+print("SANKETd".istitle())
+print(" ".istitle())
+print(" ".isspace())
+print("Hello".startswith('He'))
+print("Hello".endswith('lo'))
+

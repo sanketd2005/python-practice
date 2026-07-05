@@ -1,0 +1,53 @@
+WHAT IS DATA STRUCTURE :
+    - Different ways of organizing data on your computer, that can be used effectively
+    - used in Business Logic Layer
+
+algorithms should contain:
+    - correctness 
+    - efficiently
+
+TIME COMPLEXITY :
+    - Depends on the scenario, 
+    Big O :  best case
+    Big-Omega : average case
+    Big-Theta : Worst case
+
+    Constant Time - O(1) :
+        eg., array = [1,2,3,4,5]
+        array[0] //It takes Constant time to access first element
+    
+    Linear Time - O(n) :
+        eg., array = [1,2,3,4,5]
+            for element in array:
+                print(element)
+        // Linear time since it is visiting every element of array
+    
+    Logarithmic Time - O(LogN)
+        eg., array = [1,2,3,4,5]
+            for index in range(0,len(array),3):
+                print(array[index])
+        // Logarithmic time since it is visiting only some elements (eg, Binary search)
+    
+    Quadratic Time - O(N^2):
+        eg., array = [1,2,3,4,5]
+            for x in array:
+                for y in array:
+                    print(x,y)
+        //Looking at every indext in the array twice
+    
+    Exponential Time - O(2^n):
+        eg., def fibonacci(n):
+                if n<=1:
+                    return 1;
+                else:
+                    return fibonacci(n-1) + fibonacci(n-2)
+        //double recursion in fibonacci 
+
+
+1. Stack :
+    using List / Array :
+        easy to implement
+        speed problem when size increases
+    using LinkedList:
+        Fast Performance
+        implementation is not easy

@@ -1,0 +1,48 @@
+Errors : 
+    1. Syntactical / Compile-time error : 
+        - Developers responsibility
+        - No built-in feature to handle Errors
+        - solution : use Agents, Cursors, Ai tools etc..
+
+    2. Logical / Runtime error (Exception): 
+        - unexpected user input may cause the Runtime error.
+        - logic is wrong
+        - serverside changes, no update in older version of code
+        - can be handled, not solved
+        - Eg. Login System => advanced version
+
+    Aim -> to maintain the flow of execution of code
+
+    Types of Exception: 
+        1. built in -> provided by the interpreter
+        2. user defined -> Developers create at Runtime
+
+uses try except block
+    - try: 
+        block of code that may get error
+        throws the error
+    - except : 
+        catches only if error thrown by try block
+        can be used multiple times as per the Errors
+        single except handles only one Error
+        Use of as aliasing is allowed for each Exception class
+        default except block-> only after custom Exception
+        should be in last , otherwise the custom will face error
+    
+    - else:
+        can be implemented after except block,
+        if except executes else skipped
+        if else executes except skipped
+
+    - finally:
+        always executes
+    
+    - nested try except:
+        try inside try with except
+
+2. user defined -> Developers create at Runtime:
+    - uses raise keyword
+
+
+LOGGING WITH PYTHON :
+    

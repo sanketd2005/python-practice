@@ -1,0 +1,10 @@
+Python is a high-level, interpreted programming language.
+It is easy to learn because of its simple and readable syntax.
+Python supports object-oriented, procedural, and functional programming.
+It is widely used for web development, data science, and automation.
+Python has a large standard library with many built-in modules.
+It runs on multiple operating systems such as Windows, Linux, and macOS.
+Popular frameworks like Django and Flask are built using Python.
+Python is commonly used in artificial intelligence and machine learning.
+It is an open-source language with a large global community.
+Python is one of the most popular programming languages for beginners and professionals.
